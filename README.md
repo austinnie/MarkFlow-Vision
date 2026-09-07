@@ -1,4 +1,4 @@
-# Markflow_4image - 图片处理专用版本
+# MarkFlow-Vision - 图片处理专用版本
 
 这是 MarkFlow 的图片处理专用分支，专门用于图像生成、编辑和转换等任务。
 
@@ -555,7 +555,7 @@ models/
 ### 📂 目录结构
 
 ```text
-Markflow_4image/
+MarkFlow-Vision/
 ├── markflow/              # 核心模块
 │   ├── __init__.py
 │   ├── core/
