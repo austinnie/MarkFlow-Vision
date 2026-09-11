@@ -1,6 +1,12 @@
 # MarkFlow-Vision - 图片处理专用版本
 
-这是 MarkFlow 的图片处理专用分支，专门用于图像生成、编辑和转换等任务。
+MarkFlow 是一个轻量级的技能生成框架，让你用 Markdown 编写技能描述，自动生成可执行的 Python 代码。 然后生成多个基础技能SKILLS来扩展框架的能力，每个SKILLS都实现相同接口，可用通过MarkFlow框架统一调用， 可用实现将多个SKILLS组合起来使用，完成各种看似不可能完成的任务．一切皆是SKILLS，或者称为插件，都可用组合工作． 和DeekSeek Harness相同理念，通过组合SKILLS来扩展能力．
+
+MarkFlow-Vision 这是 MarkFlow 的图片处理专用分支，专门用于图像生成、编辑和转换等任务，包含及其丰富的图片处理能力，并且把复杂的Controlnet集成和提炼成SKILLS，请在此基础上专门给图片处理制作了Controlnet_img2img封装和加强，
+让其他处理图片的ＳＫＩＬＬＳ自动获得了Controlnet精准控图能力，提升图片处理的质量．本SKILLS中包含doc_genrator用来服务，给各个SKILLS自动写介绍文档而保留．每个SKILLS都可用单独实现main函数而独立调用，也可用通过MarkFlow框架通过调用．
+这里只做图片处理，不做其他扩展应用．
+另外还有一个项目，包含MarkFlow的基础能力SKILLS，以及本项目的图片处理SKILLS，然后集中应用，用来生成漫画COMIC,名字　MarkFlow_COMIC.
+后期还会组合SkILLS从写小说，获取热点，然后生成故事，制作音乐，配音，完成视频．这一些列过程，并且做成chat会话方式，方便大家使用　预计名字PromptForge．
 
 ## 🎯 版本说明
 
